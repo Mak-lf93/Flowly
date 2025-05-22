@@ -1,10 +1,12 @@
 body {
   margin: 0;
-  background: #111;
+  padding: 0;
+  background: radial-gradient(circle at center, #1e1e2f 0%, #0a0a0a 100%);
   color: #fff;
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
 
 h1 {
   color: #a18aff;

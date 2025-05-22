@@ -2,15 +2,15 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>🎵 Zoom – Flowly</title>
+  <title>🎧 Zoom – Flowly</title>
   <link rel="stylesheet" href="style/main.css" />
 </head>
 <body class="zoom-body">
 
   <div class="zoom-fullscreen">
-    <button id="closeZoomBtn" class="close-btn">✕</button>
-    <img id="zoomedImage" src="" alt="Pochette" />
-    <audio id="zoomedAudio" controls autoplay></audio>
+    <button class="close-btn" onclick="window.history.back()">✕</button>
+    <img id="zoomImage" alt="Pochette" />
+    <audio id="zoomAudio" controls autoplay></audio>
   </div>
 
   <script src="js/app.js"></script>
